@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gift For My Shona ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="gift-page">
+
+        <h1>I Loveeeeeee Youuhhhhh Shonaaa ❤️</h1>
+
+        <p>
+            Aap merse pyaar krte ho na...<br>
+            To iss dil ko dabao ❤️
+        </p>
+
+        <div class="gift-box" onclick="openHeart()">
+            💖
+        </div>
+
+        <!-- Hidden Music Player -->
+
+        <div id="musicSection" style="display:none;">
+
+            <h2>Sunoo iskoo babyy ❤️</h2>
+
+            <button id="giftPlayBtn">
+                ▶ Play Song
+            </button>
+
+            <div class="progress">
+
+                <div class="progress-bar" id="giftProgress"></div>
+
+            </div>
+
+            <p id="giftTime">
+                0:00 / 0:00
+            </p>
+
+            <button id="nextFinalBtn"
+                    onclick="goToFinal()"
+                    style="display:none;">
+                ❤️ Last Surprise
+            </button>
+
+        </div>
+
+        <audio id="giftSong">
+
+            <source src="Assets/Music/Kon tujhe.mp3" type="audio/mpeg">
+
+        </audio>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
